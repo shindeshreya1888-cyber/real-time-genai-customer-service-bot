@@ -1,0 +1,38 @@
+
+@'
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python environments
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Local vector databases
+vector_db/
+chroma_db/
+*.sqlite
+*.sqlite3
+*.db
+
+# Uploads and logs
+uploads/*
+!uploads/.gitkeep
+logs/
+*.log
+tmp/
+temp/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Editor and operating-system files
+.vscode/
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
+'@ | Set-Content -Encoding utf8 .gitignore

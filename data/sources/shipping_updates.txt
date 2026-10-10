@@ -1,0 +1,9 @@
+NovaShop Shipping Update
+
+Customers can now choose express shipping for eligible orders.
+
+Express shipping usually takes 1-2 business days.
+
+Standard shipping usually takes 3-5 business days.
+
+Customers can contact support if their order has been delayed.
